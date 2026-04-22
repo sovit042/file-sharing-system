@@ -11,10 +11,13 @@ Make sure you have installed:
 
 Paste these commands in the terminal make sure you are inside the file-share-system
 
-cd backend
+   ```bash
+   cd backend
+   ```
 
-npm install
-
+   ```bash
+   npm install
+   ```
 ---
 
 ## ▶️ 2. Start MongoDB
@@ -27,9 +30,13 @@ Must have MongoDB and mongoDB Compass installed in the system
 
 Paste these commands in the terminal make sure you are inside the file-share-system
 
-cd frontend
+   ```bash
+   cd frontend
+   ```
 
-npm install
+   ```bash
+   npm install
+   ```
 
 ---
 
@@ -39,7 +46,10 @@ Step 1: Find Your IP Address
 
 Run the below command in systems terminal 
 
-ipconfig
+   ```bash
+   ipconfig
+   ```
+
 
 Look for:
 
@@ -75,13 +85,17 @@ Create a uploads folder inside the backend folder
 
 Open 2 New Terminal one for Backend and one for Frontend
 
-Make sure yoy are inside the file-share-system folder in both Terminal and paste these command
+Make sure you are inside the file-share-system folder in both Terminal and paste these command
 
 In Terminal 1:
 
-cd backend
+   ```bash
+   cd backend
+   ```
 
-node server.js
+   ```bash
+   node server.js
+   ```
 
 You should see:
 
@@ -91,9 +105,13 @@ MongoDB Connected
 
 In Terminal 2:
 
-cd frontend
+   ```bash
+   cd frontend
+   ```
 
-npm start
+   ```bash
+   npm start
+   ```
 
 You will see:
 
